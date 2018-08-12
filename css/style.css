@@ -76,3 +76,13 @@ nav
 {
     background-color: rgb(255,255,255,0.9);
 }
+p{
+    font-size:1.6em;
+}
+a{
+    color:inherit;
+}
+.name{
+    font-size:3em;
+    font-weight: bold;
+}
