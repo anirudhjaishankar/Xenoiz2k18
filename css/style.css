@@ -1,7 +1,5 @@
 header{
-    background: url(../img/head.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color:whitesmoke;
     min-height: 1000px;
 }
 @media screen and (max-width: 670px){
@@ -11,7 +9,7 @@ header{
 }
 .nav{
     color:#000000;
-    font-size:1.7em;
+    font-size:1.0em;
 }
 .section{
     padding-top: 4vw;
@@ -28,17 +26,18 @@ header{
     text-align: center;
     font-family: Miontserrat, sans-serif;
     line-height: 3em;
-    padding-top: 7em;
-    padding-bottom: 7em;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .nf-r1 {
-    font-size: 3em;
+    font-size: 2em;
     font-style: normal;
     font-weight: 800;
     line-height: 1.2em;
     position: relative;
     display: inline-block;
     margin-bottom: 2em;
+    text-align:center;
 }
 
 .nf-r1::before {
@@ -55,13 +54,15 @@ header{
 
 .nf-r2 {
     font-family: Lora, serif;
-    font-size: 8em;
+    font-size: 3em;
     line-height: 1em;
     font-weight: 300;
     font-style: italic;
+
 }
 h2{
-    font-size: 3.5em;
+    font-family:Lora;
+    font-size: 3em;
 }
 .events{
     font-family: Playfair Display;
@@ -77,12 +78,40 @@ nav
     background-color: rgb(255,255,255,0.9);
 }
 p{
-    font-size:1.6em;
+    font-size:1.2em;
 }
 a{
     color:inherit;
 }
 .name{
-    font-size:3em;
+    font-size:2em;
     font-weight: bold;
+}
+.about{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.container{
+    width:80%;
+}
+.img{
+    height:50%;
+    width:50%;
+}
+.coll{
+    margin-left:20%;
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
+.section{
+    padding-top:0;
+}
+.modal:focus{
+    outline: none;
+}
+.modal{
+    max-height:85%;
+    width:80%;
 }
