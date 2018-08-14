@@ -78,7 +78,8 @@ nav
     background-color: rgb(255,255,255,0.9);
 }
 p{
-    font-size:1.2em;
+    font-size:1.4em;
+    font-family: oswald;
 }
 a{
     color:inherit;
@@ -115,3 +116,7 @@ a{
     max-height:85%;
     width:80%;
 }
+header{
+    background-color:#ffd54f;
+}
+
